@@ -9,7 +9,7 @@ import (
 	"github.com/drone/drone-go/plugin/registry"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/sirupsen/logrus"
-	"github.com/sretooling/drone-ecr-registry-plugin/plugin"
+	"github.com/sretooling/drone-plugin-cloud-registry/plugin"
 )
 
 type spec struct {
