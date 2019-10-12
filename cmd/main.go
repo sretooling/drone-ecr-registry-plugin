@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api"
-	"github.com/davidbyttow/drone-ecr-registry-plugin/plugin"
 	"github.com/drone/drone-go/plugin/registry"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/sirupsen/logrus"
+	"github.com/sretooling/drone-ecr-registry-plugin/plugin"
 )
 
 type spec struct {
