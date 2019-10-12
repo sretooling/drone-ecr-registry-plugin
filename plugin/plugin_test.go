@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api"
-	"github.com/davidbyttow/drone-ecr-registry-plugin/plugin"
 	"github.com/drone/drone-go/plugin/registry"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
+	"github.com/sretooling/drone-ecr-registry-plugin/plugin"
 )
 
 type fakeAccessor struct {

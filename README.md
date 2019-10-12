@@ -1,4 +1,8 @@
-# drone-ecr-repository-plugin
+# Credit
+This is a fork from the original authors work: (davidbytow)[https://github.com/davidbyttow/drone-ecr-registry-plugin]
+
+
+# drone-plugin-cloud-registry
 
 Drone extension to support ECR repositories when pulling images
 
@@ -18,7 +22,7 @@ See Makefile for more build options.
 $ docker run \
   --volume=/var/run/docker.sock:/var/run/docker.sock \
   --env=PLUGIN_SECRET="your shared secret"
-  --env=ECR_REGISTRY=xxxxxxxxxx.dkr.ecr.us-east-1.amazonaws.com
+  --env=ECR_REGISTRY_LIST=xxxxxxxxxx.dkr.ecr.us-east-1.amazonaws.com
 ```
 
 You should make sure that the service is able to access ECR.
@@ -31,3 +35,4 @@ DRONE_REGISTRY_ENDPOINT="http://your-registry-image:3000"
 DRONE_REGISTRY_SECRET="your shared secret"
 DRONE_REGISTRY_VERIFY="false"
 ```
+

@@ -8,7 +8,7 @@ mkdir -p $1
 
 cd "${ROOT}"
 
-package_root="github.com/davidbyttow/drone-ecr-registry-plugin"
+package_root="github.com/sretooling/drone-ecr-registry-plugin"
 
 version_ldflags=""
 if [[ -n "${2}" ]]; then
