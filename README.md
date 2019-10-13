@@ -1,6 +1,8 @@
 # Credit
 This is a fork from the original authors work: (davidbytow)[https://github.com/davidbyttow/drone-ecr-registry-plugin]
 
+![](https://travis-ci.org/sretooling/drone-plugin-cloud-registry.svg?branch=master)
+
 
 # drone-plugin-cloud-registry
 
