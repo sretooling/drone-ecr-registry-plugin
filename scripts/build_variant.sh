@@ -17,4 +17,4 @@ GITCOMMIT_SHA="$4"
 
 ./scripts/build_binary.sh "./bin/${TARGET_GOOS}-${TARGET_GOARCH}" $VERSION $GITCOMMIT_SHA
 
-echo "Built drone-ecr-registry-plugin for ${TARGET_GOOS}-${TARGET_GOARCH}-${VERSION}"
+echo "Built drone-plugin-cloud-registry for ${TARGET_GOOS}-${TARGET_GOARCH}-${VERSION}"
